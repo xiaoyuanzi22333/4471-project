@@ -23,6 +23,8 @@ from losses.center_loss import CenterLoss
 from losses.triplet_loss import CrossEntropyLabelSmooth, TripletLoss
 from modelling.baseline import Baseline
 from solver import build_optimizer, build_scheduler
+import sys
+sys.path.append(r'..')
 from utils.reid_metric import R1_mAP
 
 
