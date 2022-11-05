@@ -2,6 +2,7 @@
 
 import glob
 import json
+import os
 import os.path as osp
 import random
 import re
@@ -81,6 +82,7 @@ class ReidBaseDataModule(pl.LightningDataModule):
     def _check_before_run(self):
         """Check if all files are available before going deeper"""
         if not osp.exists(self.dataset_dir):
+            print(os.getcwd())
             raise RuntimeError("'{}' is not available".format(self.dataset_dir))
         if not osp.exists(self.train_dir):
             raise RuntimeError("'{}' is not available".format(self.train_dir))

@@ -1,0 +1,15 @@
+artifact_uri: file:./mlruns/1/ebfdee64fb534b69a4273e4ea1e38f88/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: ebfdee64fb534b69a4273e4ea1e38f88
+run_name: polite-gull-508
+run_uuid: ebfdee64fb534b69a4273e4ea1e38f88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667658971527
+status: 1
+tags: []
+user_id: unknown

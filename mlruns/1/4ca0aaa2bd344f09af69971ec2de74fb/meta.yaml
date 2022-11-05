@@ -1,0 +1,15 @@
+artifact_uri: file:./mlruns/1/4ca0aaa2bd344f09af69971ec2de74fb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 4ca0aaa2bd344f09af69971ec2de74fb
+run_name: selective-croc-536
+run_uuid: 4ca0aaa2bd344f09af69971ec2de74fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667660543804
+status: 1
+tags: []
+user_id: unknown

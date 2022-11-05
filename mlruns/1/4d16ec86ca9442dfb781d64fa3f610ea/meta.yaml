@@ -1,0 +1,15 @@
+artifact_uri: file:./mlruns/1/4d16ec86ca9442dfb781d64fa3f610ea/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 4d16ec86ca9442dfb781d64fa3f610ea
+run_name: skittish-auk-223
+run_uuid: 4d16ec86ca9442dfb781d64fa3f610ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667658623161
+status: 1
+tags: []
+user_id: unknown

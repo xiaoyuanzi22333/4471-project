@@ -1,0 +1,15 @@
+artifact_uri: file:./mlruns/1/e9b20f575d824bc693b38b3cc9e701a0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: e9b20f575d824bc693b38b3cc9e701a0
+run_name: tasteful-ape-228
+run_uuid: e9b20f575d824bc693b38b3cc9e701a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667658479964
+status: 1
+tags: []
+user_id: unknown
