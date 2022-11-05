@@ -1,3 +1,9 @@
+# encoding: utf-8
+"""
+Adapted and extended by:
+@author: mikwieczorek
+"""
+
 import argparse
 import os
 from collections import defaultdict
@@ -171,3 +177,26 @@ class CTLModel(ModelBase):
         }
 
         return {"loss": total_loss, "other": log_data}
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="CLT Model Training")
+    parser.add_argument(
+        "--config_file", default="", help="path to config file", type=str
+    )
+    parser.add_argument(
+        "opts",
+        help="Modify config options using the command-line",
+        default=None,
+        nargs=argparse.REMAINDER,
+    )
+
+    args = parser.parse_args()
+
+    if args.config_file != "":
+        cfg.merge_from_file(args.config_file)
+    cfg.merge_from_list(args.opts)
+
+    logger_save_dir = f"{Path(__file__).stem}"
+
+    run_main(cfg, CTLModel, logger_save_dir)
