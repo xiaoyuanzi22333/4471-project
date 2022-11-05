@@ -1,7 +1,4 @@
 # encoding: utf-8
-"""
-@author: mikwieczorek
-"""
 
 from .distributed_pids_sampler import *
 

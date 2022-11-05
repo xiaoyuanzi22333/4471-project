@@ -1,12 +1,4 @@
 # encoding: utf-8
-"""
-Partially based on work by:
-@author:  liaoxingyu
-@contact: liaoxingyu2@jd.com
-
-Adapted and extended by:
-@author: mikwieczorek
-"""
 
 import glob
 import os.path as osp

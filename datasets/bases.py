@@ -1,12 +1,4 @@
 # encoding: utf-8
-"""
-Partially based on work by:
-@author:  sherlock
-@contact: sherlockliao01@gmail.com
-
-Adapted and extended by:
-@author: mikwieczorek
-"""
 
 import glob
 import json

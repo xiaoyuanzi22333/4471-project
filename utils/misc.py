@@ -1,8 +1,4 @@
-# encoding: utf-8
-"""
-Adapted and extended by:
-@author: mikwieczorek
-"""
+# encoding: utf-8\
 
 import multiprocessing
 import os

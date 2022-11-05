@@ -1,12 +1,4 @@
 # encoding: utf-8
-"""
-Based on code from:
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-
-Adapted and extended by:
-@author: mikwieczorek
-"""
 
 import os
 import warnings

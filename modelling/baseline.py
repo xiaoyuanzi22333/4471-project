@@ -1,11 +1,4 @@
 # encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-
-Adapted and extended by:
-@author: mikwieczorek
-"""
 
 import torch
 import torch.nn.functional as F

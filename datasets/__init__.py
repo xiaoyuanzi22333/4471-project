@@ -1,12 +1,4 @@
 # encoding: utf-8
-"""
-Partially based on work by:
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-
-Adapted and extended by:
-@author: mikwieczorek
-"""
 
 from .dukemtmcreid import DukeMTMCreID
 from .market1501 import Market1501
